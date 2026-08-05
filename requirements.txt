@@ -1,0 +1,6 @@
+requests
+pycryptodome
+blackboxprotobuf
+flask
+google-play-scraper
+urllib3
