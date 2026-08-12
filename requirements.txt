@@ -4,3 +4,4 @@ blackboxprotobuf
 flask
 google-play-scraper
 urllib3
+gunicorn
