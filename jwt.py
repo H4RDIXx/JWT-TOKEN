@@ -176,7 +176,7 @@ def MajorLogin(proto_data):
 @app.route("/get")
 def get():
     uid = request.args.get("uid")
-    pw = request.args.get("pw")
+    pw = request.args.get("password")
     Token = GetToken(uid, pw)
     access = Token["data"]["access_token"]
     open_id = Token["data"]["open_id"]
